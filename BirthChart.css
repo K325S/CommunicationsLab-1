@@ -1,0 +1,32 @@
+/*  IN CLASS WORKSHOP
+    MAITHA ALGHFELI
+    COMM LAB - 2021 ------------------------------------------- START! */
+
+/* WEBPAGE STYLE SHEET */
+
+html { /* TARGETING THE WHOLE PAGE */
+  background-color: pink; /* SETS THE WHOLE WEBPAGE TO BLACK */
+  color: white; /* SETTING ALL TEXT COLOUR TO WHITE */
+  font-family: Arial, Helvetica, sans-serif; /* ALL FONTS ON THE PAGE ARE THE SAME */
+}
+
+h1  { /* TARGETING THE HEADING WHICH IN THIS CASE IS THE PAGE TITLE */
+  text-align: center; /* CENTRE THE HEADING */
+  text-shadow: 4px 3px 5px blue; /* STYLISTIC CHOICE - PLAYING WITH SHADOW */
+}
+
+p { /* TARGETING ALL THE PARAGRAPHS ON THE PAGE - MINIMAL DESIGN NOT MUCH VARIATION */
+  margin-left: 5%; /* OFFSETTING THE PARAGRAPHS BY A MARGIN OF 5% FROM THE LEFT */
+  margin-right: 50%; /* OFFSETTING THE PARAGRAPHS BY A MARGIN OF 50% SO THEY DON'T OVERLAP WITH THE IMAGE */
+  text-align: justify; /* JUSTIFYING TEXT FOR A MINIMAL CLEAN LOOK */
+}
+
+img { /* TARGETING IMAGE EFFECTS */
+  width: 35%; /* SETTING IMAGE TO BE 35% OF THE PAGE'S WIDTH */
+  position: absolute; /* SETTING THE IMAGE REGARDLESS OF ALIGNMENT WITH TEXT */
+  left: 60%; /* POSITIONING THE IMAGE TO THE LEFT OF THE PAGE */
+}
+
+
+
+/* --------------------------------------------- END! */
