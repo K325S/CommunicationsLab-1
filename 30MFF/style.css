@@ -1,0 +1,87 @@
+html{
+  background-color: #FF72AE
+}
+
+h1 {
+  font-size: 5vw;
+  font-family: Avenir Medium;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 4vw;
+  font-family: Avenir Heavy;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-size: 3.5vw;
+  font-family: Avenir Heavy;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-size: 2vw;
+  font-family: Avenir Light;
+  color: white;
+  text-align: center;
+}
+
+img{
+
+  width: 150px;
+  height: auto;
+}
+
+iframe{
+  display: block;
+  margin: 0 auto;
+}
+
+/* https://codepen.io/ZachSaucier/pen/jOwNvO */
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Avenir Light;
+  font-weight:500;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid white;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: Avenir Medium;
+  width: 100%;
+  background: white;
+  border:0;
+  cursor:pointer;
+  color:#FFB540;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#FF72AE; }
