@@ -2,6 +2,10 @@ html{
   background-color: #FF72AE
 }
 
+a{
+  text-decoration: none;
+}
+
 h1 {
   font-size: 5vw;
   font-family: Avenir Medium;
@@ -9,6 +13,10 @@ h1 {
   color: white;
   text-align: center;
 }
+a.index:hover{ stroke-width: 2px;  stroke-color: #C10052; }
+a.contact:hover{ stroke-width: 2px;  stroke-color: #D88400; }
+a.team:hover{ stroke-width: 2px;  stroke-color: #006441; }
+a.about:hover{ stroke-width: 2px;  stroke-color: #000F4D; }
 
 h2 {
   font-size: 4vw;
@@ -17,6 +25,11 @@ h2 {
   color: white;
   text-align: center;
 }
+
+["contact"]:hover{
+  color: #000F4D;
+}
+
 
 h3 {
   font-size: 3.5vw;
