@@ -1,0 +1,287 @@
+/*STYLESHEET OF ALL THE PAGES ON THE SITE*/
+
+/*EVERYTHING IN THE BODY APPLIES THROUGHOUT THE WHOLE SITE, USEFUL TO REMOVE HEADER AND FOOTER*/
+body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #FF72AE;
+
+}
+
+/*BODY CONTENT PADDING*/
+.site{
+  margin: 7%;
+}
+
+
+/*NAVIGATION STYLING THROUGHOUT THE SITE*/
+/*---------------------------------------------------------------------*/
+a{
+  text-decoration: none; /*REMOVES UNDERLINE OF A TAG LINK*/
+}
+
+/*HOVER STROKES CHANGING COLOUR CORRESPONDS WITH EACH CIRCLE*/
+.index:hover{ stroke-width: 2px;  stroke-color: #C10052; }
+.contact:hover{ stroke-width: 2px;  stroke-color: #D88400; }
+.team:hover{ stroke-width: 2px;  stroke-color: #006441; }
+.about:hover{ stroke-width: 2px;  stroke-color: #000F4D; }
+
+/*SIZE OF MAIN NAVIGATION TITLE*/
+h1 {
+  font-size: 5vw;
+  font-family: Avenir Medium;
+  font-style: italic;
+  color: white;
+
+  position: relative;
+  left: 44%;
+}
+
+/*STYLING OF SUB NAVIGATION TITLES*/
+h2 {
+  font-size: 3.5vw;
+  font-family: Avenir Heavy;
+  font-style: italic;
+  color: white;
+  position: relative;
+  text-align: center;
+  transform: rotate(270deg);
+}
+
+/*STYLING ALL OTHER TEXT ON THE SITE*/
+p {
+  font-size: 2vw;
+  font-family: Avenir Light;
+  color: white;
+  position: relative;
+  text-align: left;
+  padding: 6vw 0;
+}
+
+
+/*CIRCLE DIVS AS BACKING FOR NAVIGATION TITLES
+  EACH CIRCLE INCREASES IN SIZE*/
+.contactCircle{
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  background-color: #FFB540;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.teamCircle{
+  width: 30vw;
+  height: 30vw;
+  background-color: #00C480;
+  border-radius: 50%;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.aboutCircle{
+  width: 45vw;
+  height: 45vw;
+  background-color: #005CCB;
+  border-radius: 50%;
+
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+/* END OF NAVIGATION STYLING */
+/*---------------------------------------------------------------------*/
+
+
+
+/*CONTENT OF MAIN PAGE AND VIDEO DIV*/
+/*---------------------------------------------------------------------*/
+.content{
+  width: 53vw;
+  position: absolute;
+  margin-left: 26.5vw;
+  margin-top: 7.6vw;
+}
+
+/* ASPECT RATIO FOR THE IFRAME TO CHANGE ITS SIZE WHILE MAINTAINING PROPORTION */
+iframe{
+  aspect-ratio: 16 / 9;
+  height: 100%;
+  width: 100%;
+}
+
+/* END OF MAIN PAGE STYLING */
+/*---------------------------------------------------------------------*/
+
+
+
+/*CONTENT AND STYLING OF TEAM DIV*/
+/*---------------------------------------------------------------------*/
+.teamcontent{
+  background-color: #00C480;
+  width: 53vw;
+  height: 29.9vw;
+  position: absolute;
+  margin-left: 26.5vw;
+  margin-top: 7.56vw;
+}
+
+
+/*STYLING TEAM MEMBERS*/
+.teamMembers{
+  margin-top: 10%;
+  margin-left: 25%;
+  overflow: scroll;
+}
+
+/*FIGURE CAPTION STYLING AND POSITIONING OF TEAM MEMBERS*/
+figure{
+  position: relative;
+  float: center;
+  width: 10vw;
+  font-family: Avenir Light;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+}
+/* END OF TEAM PAGE STYLING */
+/*---------------------------------------------------------------------*/
+
+
+/* CONTACT PAGE STYLING AND FORM */
+/*---------------------------------------------------------------------*/
+.contactcontent{
+  background-color: #FFB540;
+  width: 53vw;
+  height: 29.9vw;
+  position: absolute;
+  margin-left: 26.5vw;
+  margin-top: 7.56vw;
+  overflow: scroll;
+}
+
+/* https://codepen.io/ZachSaucier/pen/jOwNvO */
+/* THIS CODE FOR THE FORM IS AN EDITED VERSION INSPIRED BY THE CODE ON THE LINK PREVIOUSLY*/
+form { max-width: 85%; margin:3vw auto;}
+
+.feedback-input {
+  color: black;
+  font-family: Avenir Light;
+  font-weight:500;
+  font-size: 2vw;
+  line-height: 2.5vw;
+  background-color: white;
+  border:1px solid white;
+  transition: all 0.3s;
+  padding: 1vw;
+  margin-bottom: 1.5vw;
+  width:100%;
+  box-sizing: border-box;
+}
+
+textarea { /*FOR ANY COMMENTS*/
+  height: 10vw;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] { /* THE SUBMIT BUTTON */
+  font-family: Avenir Medium;
+  width: 100%;
+  background: white;
+  border:0;
+  cursor:pointer;
+  color:#FFB540;
+  font-size:2vw;
+  padding-top:1vw;
+  padding-bottom:1vw;
+  transition: all 0.3s;
+  margin-top:-0.2vw;
+  font-weight:700;
+}
+[type="submit"]:hover { color: white; background:#D88400; }
+
+/* END OF CONTACT PAGE STYLING */
+/*---------------------------------------------------------------------*/
+
+
+
+/* ABOUT PAGE STYLING + JAVASCRIPT GALLERY ANIMATION */
+/*---------------------------------------------------------------------*/
+.aboutcontent{
+  background-color: #005CCB;
+  width: 53vw;
+  height: 44.5vw;
+  position: absolute;
+  margin-left: 26.5vw;
+  margin-top: 0.3vw;
+  overflow: scroll;
+}
+
+.abouttext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+/* MAINTAINING CERTAIN SIZE FOR THE IMAGE TABS OF THE GALLERY */
+img{
+  width: 15vw;
+  height: auto;
+}
+
+/* A GRID TO PLACE THE IMAGE GALLERY IN AND TO NAVIGATE IT WHILE DISPLAYING ALL THE TIME */
+.row{
+  float: left;
+  margin: 3vw;
+}
+
+.column {
+  float: center;
+  width: 2vw;
+}
+
+/* STYLNG IMAGES INSIDE THE GRID */
+.column img {
+  opacity: 0.8;
+  cursor: zoom-in;
+  height: 8vw;
+  object-fit: cover;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* THE TABLE HAS ONLY ONE COLUMN SO WE CLEAR THE REST OF IT */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* POSITIONING THE CONTAINER OF THE EXPANDED IMAGE TO THE RIGHT OF THE TABS  */
+.container {
+  position: relative;
+  width: 25vw;
+  height: 35vw;
+  overflow: hidden;
+  display: flex;
+  margin-top: 2vw;
+  margin-left: 20vw;
+}
+
+
+/*END!!!*/
+/*---------------------------------------------------------------------

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>30MFF About</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <!-- THE ABOUT PAGE FOLLOWS THE EXACT SAME STRUCTURE AS THE MAIN PAGE -->
+  <div class="site">
+    <div class="aboutCircle">
+      <a class="about" href="about.html"><h2>about</h2></a>
+      <div class="teamCircle">
+        <a class="team" href="team.html"><h2>team</h2></a>
+        <div class="contactCircle">
+          <a class="contact" href="contact.html"><h2>contact</h2></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT CONTENT HAS A DIFFERENT SIZE DIV THAN THE REST OF THE SITE THEREFORE IT IS IN A DIFFERENT CLASS -->
+    <div class="aboutcontent">
+      <div class="abouttext">
+        <p>Scroll down and press on an image for the gallery!
+        <br> <br>
+        Our film takes inspiration from the posters around the classroom. Patterns overlap in our everyday lives and we wanted our piece to reflect that.
+        <br> <br>
+        This webpage is the final product of the 30MFF assignment for the Communications Lab course at NYUAD. </p>
+      </div>
+
+      <!-- AS THE TURNAROUND FOR CREATING A JS ANIMATION WAS VERY SHORT, I REFERENCED THE W3SCHOOLS SAMPLE CODE FOR MY IMAGE GALLERY -->
+      <div class="row">
+        <div class="column">
+          <img src="images/img1.jpg" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="images/img2.jpg"onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="images/img3.jpg" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="images/img4.jpg" onclick="myFunction(this);">
+        </div>
+      </div>
+
+      <!-- THE EXPANDING IMAGE CONTAINER -->
+      <div class="container">
+        <img id="expandedImg" style="width:100%">
+      </div>
+
+    </div> <!-- MAIN PAGE NAVIGATION -->
+    <a class="index" href="index.html"><h1>P A T T E R N S</h1></a>
+  </div>
+</body>
+</html>
