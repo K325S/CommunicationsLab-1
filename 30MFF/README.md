@@ -1,5 +1,7 @@
 # P A T T E R N S 
 
+Access the site here: [Patterns](https://maithaalghfeli.github.io/CommunicationsLab/30MFF/index.html)
+
 Patterns is a short film on the intersection of art and our everyday lives. As part of the 30MFF at NYUAD, Patterns stands to tell the story of repeated instances in our daily lives that we tend to ignore. A little on the melancholic side, it explores artistic ways of understanding space through what can be classified as unrelated instances. 
 
 We draw inspiration from the patterned posters around the CommLab classroom to create a backbone for our narrative. These posters sit infront of us during every class yet we overlook them as part of a static setting while we continue with our dynamic lives. *When does other people's dynamic living become a static in our world?*
