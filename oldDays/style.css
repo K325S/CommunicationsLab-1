@@ -1,0 +1,96 @@
+/* BACKGROUND PINK */
+html{
+  background: pink;
+}
+
+/* BODY TAKES OVER FULL SCREEN */
+body{
+  margin: 0px;
+  padding-top: 5vw;
+}
+
+/* CSS STYLING FOR TITLE */
+h1{
+  position: fixed;
+  color: white;
+  font-size: 60px;
+  z-index: -1;
+  transform: translate(27vw, 22vw);
+}
+
+/* CSS STYLING FOR INSTRUCTIONS */
+p{
+  position: fixed;
+  color: white;
+  font-size: 10px;
+  z-index: -1;
+  transform: translate(50vw, 32vw);
+}
+
+/* POSITIONING THE SVG FOR BACKGROUND TO BE BELOW ALL CONTENT */
+.back{
+  position: fixed;
+  z-index: -2;
+}
+
+/* ALL STARS DON'T MOVE WITH RESIZING OF SCREEN WIDTH */
+.stars{
+  position: fixed;
+}
+
+/* EACH STAR IS GIVEN A CLICKABLE DIV APPROPRIATE TO THE STAR'S SIZE AND POSITION */
+.star1{
+  width: 2.5vw;
+  height: 2.5vw;
+  transform: translate(2.5vw, 4vw);
+}
+
+.star2{
+  width: 4vw;
+  height: 4vw;
+  transform: translate(6.5vw, 5vw);
+}
+
+.star3{
+  width: 8vw;
+  height: 8vw;
+  transform: translate(12vw, 32vw);
+}
+
+.star6{
+  width: 6vw;
+  height: 6vw;
+  transform: translate(87vw, 1vw);
+}
+
+/* STYLING FOR ALL CHAPTERS SAME WIDTH AND MARGINS */
+.content{
+  margin-left: 30vw;
+  margin-top: 3vw;
+  width: 40vw;
+  height: 40vw;
+  display: none;
+}
+
+/* DIVIDING CHAPTERS BY COLOUR ONLY */
+.chapter1{
+  background: #AC4FC6;
+}
+
+.chapter2{
+  background: #EB212E;
+}
+
+.chapter3{
+  background: #FF007F;
+}
+
+.chapter6{
+  background: #30CED8;
+}
+
+/* POSITIOING IMAGES INSIDE THE CHAPTERS AND CAPPING THEIR SIZE */
+.imgs{
+  position: relative;
+  width: 40vw;
+}
