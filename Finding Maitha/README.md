@@ -1,3 +1,5 @@
+Documentation: i wrote it in the md format for gihtub you can just copy paste this into yours and add more details for the section you worked on
+
 # Video Project Documentation
 
 ### Project Name: Finding Maitha
@@ -29,6 +31,8 @@ Isha edited the audio and videos together to create our final project. She also 
 ##### Stage 4: Coding
 
 We chose to create a simple website that focused on the different locations of the film and added to the mystery of the story. We tried to incorporate an SVG into our website but since we structured it to have multiple pages that hosted each clip, it didn’t work out. Maitha and Khalifa worked on the code to make the final website. 
+
+Coding the moving ketters 
 
 ### Reflection:
 
