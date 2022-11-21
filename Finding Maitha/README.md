@@ -1,5 +1,3 @@
-Documentation: i wrote it in the md format for gihtub you can just copy paste this into yours and add more details for the section you worked on
-
 # Video Project Documentation
 
 ### Project Name: Finding Maitha
