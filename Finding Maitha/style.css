@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+/* titleeeee */
+h1{
+  font-size: 5vw;
+  font-family: sans-serif;
+  color: black;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 2);
+}
+
+.main{
+  display: block;
+  text-align: center;
+  padding-top: 5vw;
+}
+
+/* video place */
+.video-holder{
+  padding-top: 5vh;
+  padding-left: 18vw;
+}
+
+.navigation{
+  diplay: block;
+}
+
+img{
+  width: 3.5vw;
+  margin: 5px;
+}
+
+.right-button{
+  transform: scaleX(-1);
+}
+/* end of video */
+
+
+
+
+
+
+
+                                             /* MaItHa tExT bOx */
+.text-box{
+    font-size: 100px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.text-box-2{
+    font-size: 100px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+span.title{
+    animation: mover 6s linear infinite;
+    display: inline-block;
+    color: black;
+    font-weight: bolder;
+}
+
+                                             /* This makes the letters go weeeeee */
+
+@keyframes mover
+{
+    0%{
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0);
+      }
+    50%{
+        text-shadow: 0 0 30px rgba(255, 255, 255, 2);
+        transform: translateY(30px);
+      }
+    100%
+      {
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0);
+      }
+}
+
+                                             /* This gives each letter a break when moving */
+
+span:nth-child(1)
+{
+    animation-delay: 0.7s;
+}
+span:nth-child(2)
+{
+    animation-delay: 1.2s;
+}
+span:nth-child(3)
+{
+    animation-delay: 1.7s;
+}
+span:nth-child(4)
+{
+    animation-delay: 2.2s;
+}
+span:nth-child(5)
+{
+    animation-delay: 2.7s;
+}
+span:nth-child(6)
+{
+    animation-delay: 3.2s;
+}
+span:nth-child(7)
+{
+    animation-delay: 3.7s;
+}
+
+                                             /* The Rat and the woooweeee scrollwheel animation for it */
+
+.scroll-icon {
+    position: relative;
+    top: 550px;
+    left: 40%;
+    margin: 4em;
+    width: 4em;
+    height: 7em;
+    border: .3em solid #2d2d2d;
+    border-radius: 2em;
+}
+
+.scroll-icon.ex-1 .wheel {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    width: .6em;
+    height: .6em;
+    background-color: #2d2d2d;
+    transform: translate(-50%, 0);
+    border-radius: .6em;
+    animation: ex-1-wheel 1s ease-in-out infinite;
+}
+
+                                             /* The wooooweeee I was talking about */
+
+@keyframes ex-1-wheel {
+    0% {
+        transform: translate(-50%, 0);
+        opacity: 0;
+    }
+    20%, 70% {
+        opacity: 1;
+    }
+    90%, 100% {
+        transform: translate(-50%, 150%);
+        opacity: 0;
+    }
+}
+
+                                             /* Container code */
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    top: 780px;
+    width: 100%;
+    height: 50vw;
+    flex-direction: column;
+    background: black;
+}
+
+.h-text-box{
+    /* box-shadow: 30px 10px 10px rgba(255, 255, 255, 0.2); */
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    padding: 11vw;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, black, grey);
+
+}
+
+p{
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  line-height: 1.6;
+  color: white;
+}
+
+                                             /* The last button on the first page */
+
+.last-button{
+    width: 500px;
+    height: 100px;
+    border: 2px solid grey;
+
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 0.5vw;;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.last-button:hover{
+  background: #2d2d2d;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+}

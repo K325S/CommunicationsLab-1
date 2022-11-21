@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title></title>
+  </head>
+  <body>
+<audio src="sound.mp3" autoplay loop></audio>
+    <div class="main">
+      <a href="index.html"><h1>FINDING MAITHA</h1></a>
+    </div>
+
+    <!-- These hold the containers and the texts -->
+    <div class="video-holder">
+      <div class="h-text-box" data-aos="fade-right">
+          <p><span class="typewriter"></span></p>
+    <!-- this gives the typewriter effect to the text -->
+          <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+          <script>
+
+            var typed = new Typed(".typewriter", {
+              strings: ["Soon enough, these disruptions will form a pattern. We may or may not catch on. But when we do, our questions soon follow. Do we sit back and watch it all unfold, oblivious to the signs? Oblivious to the truth? <br> <br> ... <br> <br> Or will curiosity kill the cat?"],
+              typeSpeed: 100,
+              loop: true,
+            })
+
+          </script>
+
+      </div>
+
+      <!-- Makes the magic work without loosing my mind -->
+
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+            AOS.init({
+              duration: 3000,
+              once: true,
+            });
+          </script>
+
+          <div class="navigation">
+            <a href="video2.html"><img class="left-button"src="button.svg"></a>
+            <a href="video3.html"><img class="right-button" src="button.svg" alt="button"></a>
+          </div>
+    </div>
+
+  </body>
+</html>

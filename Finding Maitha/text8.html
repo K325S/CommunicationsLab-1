@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title></title>
+  </head>
+  <body>
+<audio src="sound.mp3" autoplay loop></audio>
+    <div class="main">
+      <a href="index.html"><h1>FINDING MAITHA</h1></a>
+    </div>
+
+    <!-- These hold the containers and the texts -->
+    <div class="video-holder">
+      <div class="h-text-box" data-aos="fade-right">
+          <p><span class="typewriter"></span></p>
+    <!-- this gives the typewriter effect to the text -->
+          <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+          <script>
+
+            var typed = new Typed(".typewriter", {
+              strings: ["What about what we can’t see? The girl walking the hallways, unable to make it back. She disappears further and further into the void not knowing where it leads. <br> <br> A girl of mystery, but only she has the answer."],
+              typeSpeed: 100,
+              loop: true,
+            })
+
+          </script>
+
+      </div>
+
+      <!-- Makes the magic work without loosing my mind -->
+
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+            AOS.init({
+              duration: 3000,
+              once: true,
+            });
+          </script>
+
+          <div class="navigation">
+            <a href="video7.html"><img class="left-button"src="button.svg"></a>
+            <a href="video8.html"><img class="right-button" src="button.svg" alt="button"></a>
+          </div>
+    </div>
+
+  </body>
+</html>
